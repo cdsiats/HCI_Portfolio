@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./index.js"></script>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Darryl's Portfolio</title>
+    <style>
+      /* * {
+        outline: 1px solid red;
+      } */
+    </style>
+  </head>
+
+  <body class="container mx-auto px-10 bg-gray-900 text-gray-400">
+    <nav class="flex justify-between py-5">
+      <div>
+        <h1 class="font-bold text-2xl text-white">Darryl Siatong</h1>
+      </div>
+      <div>
+        <ul class="flex gap-3 text-lg">
+          <li class="hover:text-gray-300 transition ease-in-out delay-75">
+            <a href="#about">About</a>
+          </li>
+          <li class="hover:text-gray-300 transition ease-in-out delay-75">
+            <a href="#projects">Projects</a>
+          </li>
+          <li class="hover:text-gray-300 transition ease-in-out delay-75">
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Home Section -->
+    <div class="flex mt-5 h-screen">
+      <div class="w-1/2 h-full">
+        <img
+          src="assets/undraw_programming_re_kg9v.svg"
+          alt="programmer working"
+        />
+      </div>
+      <div
+        id="righ-home-container"
+        class="w-1/2 flex justify-center items-center flex-col"
+      >
+        <h2 class="text-4xl text-white font-bold">Hi, I'm Darryl</h2>
+        <p class="text-2xl">I am a <span class="typing"></span></p>
+
+        <div class="flex gap-2 mt-4">
+          <a target="_blank" href="https://github.com/cdsiats"
+            ><img src="./assets/github_log.svg" alt="github logo"
+          /></a>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/christian-darryl-354637240/"
+          >
+            <img src="./assets/linkedin_logo.svg" alt="linkedin logo" />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about" class="flex">
+      <div class="w-1/2">
+        <p class="text-4xl text-white font-bold">About me</p>
+        <br />
+        <p class="text-xl">
+          I am currently in my junior year in Philippine Christian University
+          taking up Bachelor of Science in Information Technology.
+          <br />
+          <br />
+          Becoming a Full Stack Developer is one of my goals in life. I have a
+          knack for creating products that solve pain points and make people's
+          lives easier. Delivering quality products is my top priority.
+          Exploring new technologies are one of my hobbies because I believe
+          learning never stops.
+          <br />
+          <br />
+          Specializing in working with Javascript and PHP related Technologies.
+          I love working on applications using SvelteKit, NodeJS, Supabase, and
+          Pocketbase for side projects, and a little bit of Laravel on the side.
+        </p>
+      </div>
+      <div>
+        <img
+          src="/assets/undraw_career_progress_ivdb.svg"
+          alt="a man looking at the mirror"
+        />
+      </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div
+      id="projects"
+      class="h-screen flex flex-col items-center justify-center text-white gap-3"
+    >
+      <h2 class="text-4xl text-white font-bold">Projects</h2>
+
+      <div class="flex gap-4">
+        <div
+          class="w-64 h-80 bg-indigo-800 rounded-md flex flex-col items-center justify-around"
+        >
+          <div>
+            <a target="_blank" href="https://github.com/cdsiats/Bud-web-app">
+              <img width="50px" src="./assets/github_log.svg" alt="" />
+            </a>
+          </div>
+          <div class="px-4">
+            <p class="text-2xl font-semibold">Bud</p>
+            <p class="text-gray-300">Mood Tracking Application</p>
+            <br />
+            <p>This project was made using ReactJS, ExpressJS, and MongoDB</p>
+          </div>
+        </div>
+
+        <div
+          class="w-64 h-80 bg-indigo-800 rounded-md flex flex-col items-center justify-around"
+        >
+          <div>
+            <a
+              target="_blank"
+              href="https://github.com/cdsiats/simple-portfolio-website"
+            >
+              <img width="50px" src="./assets/github_log.svg" alt="" />
+            </a>
+          </div>
+          <div class="px-4">
+            <p class="text-2xl font-semibold">Portfolio Website</p>
+            <p class="text-gray-300">My Old Portfolio website</p>
+            <br />
+            <p>This project was made using HTML and Bootstrap</p>
+          </div>
+        </div>
+
+        <div
+          class="w-64 h-80 bg-indigo-800 rounded-md flex flex-col items-center justify-around"
+        >
+          <div>
+            <a
+              target="_blank"
+              href="https://github.com/cdsiats/IntegProg_Siatong"
+            >
+              <img width="50px" src="./assets/github_log.svg" alt="" />
+            </a>
+          </div>
+          <div class="px-4">
+            <p class="text-2xl font-semibold">
+              Basic Windows Forms Application
+            </p>
+            <br />
+            <p>
+              This project was made using C# windows forms as part of an
+              activity
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="w-64 h-80 bg-indigo-800 rounded-md flex flex-col items-center justify-around"
+        >
+          <div>
+            <a
+              target="_blank"
+              href="https://github.com/cdsiats/qr-code-component-main"
+            >
+              <img width="50px" src="./assets/github_log.svg" alt="" />
+            </a>
+          </div>
+          <div class="px-4">
+            <p class="text-2xl font-semibold">QR Code Component</p>
+            <br />
+            <p>
+              This project was made using HTML and TailwindCSS as part of a
+              coding challenge
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact"></div>
+  </body>
+</html>

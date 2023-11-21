@@ -1,0 +1,11 @@
+* {
+    font-family: "Inter", "sans-serif";
+  }
+
+#right-home-container {
+    background-image: url('./assets/circles_bg.svg');
+}
+
+html {
+    scroll-behavior: smooth;
+}
